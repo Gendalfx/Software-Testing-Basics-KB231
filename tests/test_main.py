@@ -10,6 +10,8 @@ async def test_root_endpoint():
     async with AsyncClient(transport=transport, base_url="http://test") as ac:
         response = await ac.get("/")
     
+    data = response.json()
+    
     assert response.status_code == 200
     assert isinstance(data, list)  
     assert "text" in data[0]     
