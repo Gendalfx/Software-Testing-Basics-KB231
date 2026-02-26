@@ -11,4 +11,5 @@ async def test_root_endpoint():
         response = await ac.get("/")
     
     assert response.status_code == 200
-    assert "greetings" in response.json()
+    assert isinstance(data, list)  
+    assert "text" in data[0]     
