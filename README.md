@@ -1,6 +1,6 @@
-# Software-Testing-Basics-KB231 Dukhvin Andrii
+# Software-Testing-Basics-KB231 made by Dukhvin Andrii
 
-# FastAPI Cloud-Native App with DevSecOps Pipeline 🚀🛡️
+## FastAPI Cloud-Native App with DevSecOps Pipeline 🚀🛡️
 
 Цей проєкт демонструє підхід до тестування застосунків на FastAPI з впровадженням автоматизованого CI/CD пайплайну, орієнтованого на безпеку.
 
